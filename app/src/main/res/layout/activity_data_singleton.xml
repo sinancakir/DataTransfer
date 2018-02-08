@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="datatransportation.sinan.com.ui.data.DataSingletonActivity">
+
+    <TextView
+        android:id="@+id/activity_data_txtData"
+        android:layout_width="200dp"
+        android:layout_height="80dp" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/activity_data_btnBackToHome"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="@string/back_to_home" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="datatransportation.sinan.com.ui.SerializableActivity">
+
+    <EditText
+        android:id="@+id/activity_serializable_edtName"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:hint="@string/name" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/activity_serializable_edtPhone"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/activity_serializable_btnBundle"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="@string/send_with_serializable" />
+</LinearLayout>

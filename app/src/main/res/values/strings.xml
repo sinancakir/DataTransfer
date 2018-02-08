@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DataTransportation</string>
+    <string name="intent">Intent</string>
+    <string name="bundle">Bundle</string>
+    <string name="serializable">Serializable</string>
+    <string name="parcelable">Parcelable</string>
+    <string name="singleton">Singleton</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="send_with_intent">Send with Intent</string>
+    <string name="back_to_home">Back To Home</string>
+    <string name="send_with_bundle">Send With Bundle</string>
+    <string name="send_with_serializable">Send With Serializable</string>
+    <string name="send_with_parcelable">Send With Parcelable</string>
+    <string name="send_with_singleton">Send With Singleton</string>
+</resources>

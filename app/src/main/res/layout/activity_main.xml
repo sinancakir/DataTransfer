@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="datatransportation.sinan.com.ui.MainActivity">
+
+    <Button
+        android:id="@+id/activity_main_btnIntent"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="@string/intent"/>
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/activity_main_btnBundle"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="@string/bundle"/>
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/activity_main_btnSerializable"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="@string/serializable"/>
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/activity_main_btnParcelable"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="@string/parcelable"/>
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/activity_main_btnSingleton"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="@string/singleton"/>
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+</LinearLayout>
